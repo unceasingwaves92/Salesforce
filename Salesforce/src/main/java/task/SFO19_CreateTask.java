@@ -32,6 +32,7 @@ public class SFO19_CreateTask {
 		driver.findElementById("Login").click();
 		System.out.println("Not successfully");
 		System.out.println("Welcome to salesforce application");
+		System.out.println("Welcome to salesforce application1");
 		
 		// 2. Click on toggle menu button from the left corner
 		driver.findElementByClassName("slds-icon-waffle").click();
