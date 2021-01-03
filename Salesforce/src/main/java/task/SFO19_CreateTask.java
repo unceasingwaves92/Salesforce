@@ -21,7 +21,7 @@ public class SFO19_CreateTask {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		
+		System.out.println("Welcome to salesforce application");
 		// Load the URL
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
