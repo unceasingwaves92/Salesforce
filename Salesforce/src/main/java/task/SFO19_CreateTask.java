@@ -31,6 +31,7 @@ public class SFO19_CreateTask {
 		driver.findElementById("password").sendKeys("Bootcamp$123");
 		driver.findElementById("Login").click();
 		System.out.println("Not successfully");
+		System.out.println("Welcome to salesforce application");
 		
 		// 2. Click on toggle menu button from the left corner
 		driver.findElementByClassName("slds-icon-waffle").click();
